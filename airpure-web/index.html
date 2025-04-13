@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirPure</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">AirPure</span>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Monitoramento da Qualidade do Ar</h1>
+
+        <div class="row text-center">
+            <div class="col">
+                <h4>Temperatura</h4>
+                <p id="temp">-- °C</p>
+            </div>
+            <div class="col">
+                <h4>Umidade</h4>
+                <p id="umid">-- %</p>
+            </div>
+            <div class="col">
+                <h4>Pressão</h4>
+                <p id="press">-- hPa</p>
+            </div>
+            <div class="col">
+                <h4>CO₂</h4>
+                <p id="co2">-- ppm</p>
+            </div>
+            <div class="col">
+                <h4>THI</h4>
+                <p id="thi">--</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>Projeto AirPure © 2024</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Seu JS -->
+    <script src="script.js"></script>
+</body>
+</html>
