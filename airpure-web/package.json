@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "airpure-web": "file:",
     "express": "^4.21.2"
   },
   "name": "airpure-web",

@@ -1,75 +1,37 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 20px;
+    background-color: #d3e7f1; /* azul claro */
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
+.navbar {
+    background-color: #1d4d9c; /* azul escuro */
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
+h5, p {
+    color: #052960; /* azul escuro nos textos principais */
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
+h1, h2{
+    color: #021229; /* azul escuro nos textos principais */
 }
 
-main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
+.titulo {
+    color: #1d4d9c; /* Azul escuro */
 }
-
-section {
-    background-color: white;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+.card {
+    background-color: #ffffff; /* fundo branco dos cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
 }
 
 footer {
-    margin-top: 20px;
-    text-align: center;
-    color: #666;
+    background-color: #c3c4c4;
+    color: #1d4d9c;
 }
 
-/* Responsividade com media queries */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    main {
-        grid-template-columns: 1fr;
-    }
+.dashboard-graphs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-
-
-/* Adicionar estilos personalizados para imagens */
-img {
-    max-width: 100%; /* A imagem nunca será maior que o container */
-    height: auto;    /* Mantém a proporção da imagem */
-    border-radius: 10px; /* Adiciona bordas arredondadas */
-    margin-top: 20px;
-}
-
-/* Alunos: podem adicionar estilos adicionais conforme necessário */
